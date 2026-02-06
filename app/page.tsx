@@ -236,14 +236,14 @@ export default function SurfClub() {
         </a>
 
         {/* WhatsApp */}
-        <a
-          href="https://wa.me/0640391475"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="w-14 h-14 flex items-center justify-center bg-white rounded-2xl shadow-2xl hover:scale-110 transition-transform"
-        >
-          <img src="/whatsapp-logo.svg" className="w-8 h-8" alt="WhatsApp" />
-        </a>
+     <a
+  href="https://api.whatsapp.com/send?phone=212640391475"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="w-14 h-14 flex items-center justify-center bg-white rounded-2xl shadow-2xl hover:scale-110 transition-transform"
+>
+  <img src="/whatsapp-logo.svg" className="w-8 h-8" alt="WhatsApp" />
+</a>
       </div>
 
       <footer className="bg-slate-900 text-slate-400 py-12 text-center">
