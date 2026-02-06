@@ -29,7 +29,7 @@ const projects: ProjectsTypes[] = [
   },
   {
     id: '03',
-    img: '/images/surf-trip.jpg',
+    img: '/beaches-sunrise 4.webp',
     title: 'Surf Trip',
     des: 'voyager pour progresser, surfer pour le plaisir, vivre l’instant à fond.',
     price: 'Contactez nous',

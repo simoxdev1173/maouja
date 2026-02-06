@@ -6,7 +6,7 @@ import { motion, useScroll, useTransform } from 'framer-motion';
 import { MessageCircle, Waves, MapPin, Camera, Calendar } from 'lucide-react';
 import Sessions from './mainComponents/Sessions';
 import GallerySection from './mainComponents/Gallery';
-
+import Image from 'next/image';
 export default function SurfClub() {
   const { scrollY } = useScroll();
   
@@ -22,13 +22,13 @@ export default function SurfClub() {
         style={{ backgroundColor: headerBg, height: headerHeight }}
         className="fixed top-0 w-full z-50 flex items-center justify-between px-6 backdrop-blur-sm transition-all"
       >
-        <h1 className="text-2xl font-black italic tracking-tighter text-[#0F172B]">
-          Maouja
-        </h1>
+        <Image width={250} height={150} alt="website logo" src="/logo.png"/>
         <nav className="hidden md:flex gap-6 text-[#0F172B] font-bold">
           <a href="#sessions">Sessions</a>
           <a href="#gallery">Gallery</a>
           <a href="#activities">Activities</a>
+           <a href="/about-us">About us</a>
+
         </nav>
         <Link href="/book-now">
         <button className="bg-coral-500 hover:scale-110 bg-[#0F172B] text-white px-4 py-2 rounded-full font-bold text-sm shadow-lg">
