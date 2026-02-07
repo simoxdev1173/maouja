@@ -18,7 +18,7 @@ export default function BookingPage() {
     const name = formData.get("name");
     const phone = formData.get("phone");
     const message = formData.get("message");
-
+//wtv
     const text = `
 🏄 Nouvelle demande MAOUJA
 
