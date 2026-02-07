@@ -104,9 +104,9 @@ function Header() {
 
 
 const images = [
-  '/images/gallery-1.jpg',
+  '/images/gallery-1.png',
   '/images/gallery-2.jpeg',
-  '/images/gallery-3.jpg',
+  '/images/gallery-3.png',
   '/images/gallery-4.jpeg',
   '/images/gallery-5.jpeg',
   '/images/gallery-6.jpeg',
