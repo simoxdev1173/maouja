@@ -1,4 +1,5 @@
 import { cn } from '@/lib/utils'
+import Link from 'next/link'
 
 type GalleryImage = {
   src: string
@@ -69,9 +70,12 @@ const Gallery = ({ sections }: { sections: GallerySection[] }) => {
       </div>
 
       <div className='mt-12 flex justify-center items-center'>
-        <button className="bg-[#0F172B] hover:bg-[#1e293b] text-white px-10 py-4 rounded-full font-bold text-sm shadow-xl transition-all active:scale-95">
+        <Link href="/gallery">
+        <button
+        className="bg-[#0F172B] hover:bg-[#1e293b] text-white px-10 py-4 rounded-full font-bold text-sm shadow-xl transition-all active:scale-95">
           Voir tout l'univers
         </button>
+        </Link>
       </div>
     </section>
   )

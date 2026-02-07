@@ -4,7 +4,7 @@ const gallerySections = [
   {
     images: [
       {
-        src: '/images/gallery-1.jpeg',
+        src: '/images/gallery-1.jpg',
         alt: 'Coastal cliffs and ocean view'
       }
     ]
@@ -17,7 +17,7 @@ const gallerySections = [
         alt: 'Silhouettes on beach'
       },
       {
-        src: '/images/gallery-3.jpeg',
+        src: '/images/gallery-3.jpg',
         alt: 'Snowy mountain peaks'
       },
       {
