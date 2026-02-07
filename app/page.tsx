@@ -47,9 +47,9 @@ export default function SurfClub() {
       {/* --- MOVING HEADER --- */}
       <motion.header
         style={{ backgroundColor: headerBg, height: headerHeight }}
-        className="fixed top-0 w-full z-50 flex items-center justify-between px-6 backdrop-blur-sm transition-all"
+        className="fixed top-0 w-full z-50 flex items-center justify-center gap-20 px-6 backdrop-blur-sm transition-all"
       >
-        <Link href="/" className="flex items-center">
+        <Link href="/" className="flex items-center justify-center">
           <Image width={250} height={150} alt="website logo" src="/logo.png" />
         </Link>
 
@@ -236,14 +236,14 @@ export default function SurfClub() {
         </a>
 
         {/* WhatsApp */}
-     <a
-  href="https://api.whatsapp.com/send?phone=212640391475"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="w-14 h-14 flex items-center justify-center bg-white rounded-2xl shadow-2xl hover:scale-110 transition-transform"
->
-  <img src="/whatsapp-logo.svg" className="w-8 h-8" alt="WhatsApp" />
-</a>
+            <a
+          href="https://api.whatsapp.com/send?phone=212640391475"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="w-14 h-14 flex items-center justify-center bg-white rounded-2xl shadow-2xl hover:scale-110 transition-transform"
+        >
+          <img src="/whatsapp-logo.svg" className="w-8 h-8" alt="WhatsApp" />
+        </a>
       </div>
 
       <footer className="bg-slate-900 text-slate-400 py-12 text-center">
